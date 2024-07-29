@@ -1,0 +1,324 @@
+/* General Body Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+/* Header Styles */
+h2 {
+    font-size: 40px;
+    color: #6C22A6;
+    margin-bottom: 3px;
+}
+
+h1 {
+    width: 350px;
+    font-size: 60px;
+    margin: 2px;
+}
+
+/* Intro Section */
+#intro {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* Main Content Area */
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+#photo {
+    width: 30%;
+    margin-right: 40px;
+    height: 440px;
+}
+
+#data {
+    width: 60%;
+    margin-left: 40px;
+}
+
+/* Navigation Styles */
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: 0 100px;
+}
+
+.logo-name {
+    display: flex;
+    align-items: center;
+}
+
+.logo-name img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo-name span {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 18px;
+    color: #6C22A6;
+    font-weight: bold;
+    border: 2px solid #D8B4F8;
+    padding: 3px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px;
+    box-shadow: 0 0 10px #6C22A6;
+}
+
+/* Button Styles */
+#nav button {
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: #D8B4F8;
+    box-shadow: 0 0 10px #6C22A6;
+    font-weight: bold;
+}
+
+#nav button:hover {
+    background-color: #C65BCF;
+}
+
+#button {
+    border-radius: 25px;
+    padding: 10px 20px;
+    width: 150px;
+    background-color: #D8B4F8;
+    border: 2px solid white;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    outline: 2px solid #6C22A6;
+}
+
+#button:hover {
+    background-color: #C65BCF;
+}
+
+/* Navigation Links */
+#nav a {
+    margin-right: 80px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#nav a:hover {
+    text-decoration: underline;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.icon-link {
+    display: inline-block;
+}
+
+.icon-link img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.icon-link img:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+/* Experience Section */
+#experience {
+    padding: 20px;
+}
+
+#experience h2 {
+    text-align: center;
+    color: #6C22A6;
+    margin-bottom: 20px;
+}
+
+.experience-category {
+    margin-bottom: 30px;
+}
+
+.experience-category h3 {
+    color: #333;
+    border-bottom: 2px solid #6C22A6;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.experience-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ECF2FF;
+    border: 1px solid #6C22A6;
+    border-radius: 5px;
+    transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.experience-item:hover {
+    border-color: transparent;
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(108, 34, 166, 0.7);
+}
+
+.experience-item h4 {
+    color: #6C22A6;
+    margin: 0;
+    font-size: 18px;
+}
+
+.experience-item p {
+    margin: 5px 0;
+    color: #333;
+}
+
+.view-project {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    color: #6C22A6;
+    text-decoration: none;
+    border: 1px solid #6C22A6;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.view-project:hover {
+    background-color: #6C22A6;
+    color: #fff;
+}
+
+.contact-section {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px #6C22A6;
+    width: 300px;
+    margin-left: 450px;
+}
+.contact-section h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #6C22A6;
+}
+.contact-section .contact-group {
+    margin-bottom: 15px;
+}
+.contact-section .contact-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+.contact-section .contact-group input,
+.contact-section .contact-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.contact-section .contact-group textarea {
+    resize: vertical;
+    height: 100px;
+}
+.contact-section button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6C22A6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.contact-section button:hover {
+    background-color: #5a1f9b;
+}
+#color{
+    background: linear-gradient(to top, #FFC7EA, #D8B4F8);
+}
+
+.skills-development {
+    padding: 20px;
+  
+    border-radius: 10px;
+   
+    text-align: center; /* Center text in the container */
+}
+
+.education {
+    font-size: 40px;
+    color: #6C22A6;
+    padding-bottom: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.icon-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Increased gap between icons */
+    justify-content: center; /* Center icons horizontally */
+}
+
+.icon-item {
+    text-align: center;
+    flex: 1 1 calc(20% - 20px); /* Five items per row, with increased gap */
+    max-width: calc(20% - 20px);
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 80px; /* Increased size of icons */
+    height: 80px; /* Increased size of icons */
+    border-radius: 50%; /* Circular icons */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icon:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    box-shadow: 0 0 12px rgba(108, 34, 166, 0.7); /* Purple shadow effect */
+}
+
+.icon-item p {
+    margin-top: 5px; /* Reduced margin for text */
+    font-size: 14px; /* Adjust font size */
+    color: #333;
+}
+
+#skills {
+    margin-bottom: 40px;
+}
+
+
+#photo img {
+    margin-top: 70px;
+    width: 300px; /* Adjust as needed for your design */
+    height: 300px; /* Same as width to maintain square aspect ratio */
+    object-fit: cover; /* Ensures the image covers the square area */
+    border-radius: 50%; /* Optional: makes the image circular if you prefer */
+    box-shadow: 0 0px 40px rgba(108, 34, 166, 0.7); /* Optional: adds shadow for a 3D effect */
+}
